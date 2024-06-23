@@ -14,7 +14,7 @@ export class CategoriesService {
 
   getCategories() {
     const headers = new HttpHeaders({
-      authorization: 'Basic ' + btoa("thirdUser" + ':' + "hola.123")
+      authorization: 'Basic ' + btoa("edita" + ':' + "edita123")
     });
     return this.http.get(this.url, {headers: headers});
   }
