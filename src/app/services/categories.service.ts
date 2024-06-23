@@ -6,7 +6,9 @@ import { Injectable } from '@angular/core';
 })
 export class CategoriesService {
   //url: any = 'http://localhost:8080/v1/categories';
-  url: any = 'books-apirest-backend-env-1.eba-pwcxpnyt.us-east-1.elasticbeanstalk.com/v1/categories';
+
+  // url: any = 'books-apirest-backend-env-1.eba-pwcxpnyt.us-east-1.elasticbeanstalk.com/v1/categories';
+  url: any = 'https://books-apirest-backend.onrender.com/v1/categories';
 
   constructor(private http: HttpClient) {}
 
